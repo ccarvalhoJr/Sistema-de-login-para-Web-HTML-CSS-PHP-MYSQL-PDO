@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(#1687ED, #A91C78);
+    font-family: Monospace, "monaco";
+    color: white;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width:400px;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0.7px 0.7px white;
+    font-size: 16 pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+input[type=submit] {
+    background-color:#F5F5DC;
+    color: black;
+    border: none;
+    font-family: monospace, "monaco";
+    font-size: 17pt;
+    cursor: pointer;
+}
+
+div#corpo-form{
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form h1{
+    text-align: center;
+    padding:20px;
+}
+
+div#corpo-form-cad{
+    width: 420px;
+    margin: 100px auto 0px auto;
+}
+
+div#corpo-form-cad h1{
+    text-align: center;
+    padding:20px;
+}
+
+a{
+    color: #F0FFF0;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+::-webkit-input-placeholder { 
+    color: #FFF;
+    font-family: monospace, "monaco";
+  }
+  ::-moz-placeholder {
+    color: #FFF;
+    font-family: monospace, "monaco";
+  }
+  :-ms-input-placeholder {
+    color: #FFF;
+    font-family: monospace, "monaco";
+  }
+  :-moz-placeholder { 
+    color: #FFF;
+    font-family: monospace, "monaco";
+  }
+  
+   div#msg-sucesso{
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px rgb(34,139,34);
+  }
+
+  div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250,128,114,.3);
+    border: 1px rgb(165,42,42);
+  }
+
+  div#sair{
+   width:50px;
+   padding: 10px;
+  }
+
+  div#img{
+    
+    margin: 10px 170px 0px 170px;
+  }
